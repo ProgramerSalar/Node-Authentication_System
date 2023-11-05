@@ -7,6 +7,9 @@
     "dev": "Set NODE_ENV=Devlopment mode && nodemon server.js",
     "start": "Set NODE_ENV=Production mode && nodemon server.js"
   },
+    "engines": {
+      "node": ">=16.20.1"
+    },
   "type": "module",
   "author": "",
   "license": "ISC",
