@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "Set NODE_ENV=Devlopment mode && nodemon server.js",
-    "start": "NODE_ENV=Production mode && nodemon server.js"
+    "start": "nodemon server.js"
   },
     "engines": {
       "node": ">=16.20.1"
