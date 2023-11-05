@@ -5,6 +5,7 @@ import {
     SignUp,
     changePassword,
     forgotPassword,
+    getMyProfile,
     getmyProfile,
     resetPassword,
     updateProfile
@@ -18,7 +19,7 @@ import { isAuthenticated } from "../utils/auth.js";
 
 const routes = Router()
 
-
+routes.get('/me', getMyProfile)
 routes.post('/login', Login)
 routes.post('/new', SignUp)
 routes.get('/me', isAuthenticated, getmyProfile)

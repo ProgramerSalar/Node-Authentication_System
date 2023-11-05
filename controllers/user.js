@@ -205,3 +205,6 @@ export const resetPassword = async (req, res, next) => {
 
 
 
+export const getMyProfile = (req, res, next) => {
+    res.send("This is My Profile")
+}
